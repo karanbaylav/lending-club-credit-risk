@@ -1,0 +1,9 @@
+step,loans
+rows in file,2260701
+summary rows without a loan amount (dropped),33
+loans,2260668
+... still open at the snapshot (no final outcome),912569
+... resolved: paid,1078739
+... resolved: default,269360
+"... of which ""does not meet the credit policy"" (kept, flagged)",2749
+loans with a known 12-month outcome (18+ months old),1646778

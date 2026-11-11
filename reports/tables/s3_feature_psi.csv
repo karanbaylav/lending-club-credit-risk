@@ -1,0 +1,10 @@
+feature,psi_train_vs_test
+inq_last_6mths,0.076
+purpose,0.0522
+dti,0.043
+annual_inc,0.0192
+loan_to_income,0.0192
+credit_history_months,0.0131
+home_ownership,0.0093
+fico,0.0035
+term_months,0.001

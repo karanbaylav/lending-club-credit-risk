@@ -1,0 +1,31 @@
+{
+  "features_kept_after_iv": [
+    "fico",
+    "inq_last_6mths",
+    "annual_inc",
+    "loan_to_income",
+    "purpose",
+    "dti",
+    "credit_history_months",
+    "term_months",
+    "home_ownership"
+  ],
+  "wrong_sign_dropped": [],
+  "final_features": [
+    "fico",
+    "inq_last_6mths",
+    "annual_inc",
+    "loan_to_income",
+    "purpose",
+    "dti",
+    "credit_history_months",
+    "term_months",
+    "home_ownership"
+  ],
+  "gbm_setting": "regularised",
+  "gbm_trees": 724,
+  "dropped_features": {
+    "mort_acc": "not recorded before 2012 (structural break, not drift)"
+  },
+  "seed": 20261111
+}

@@ -1,0 +1,22 @@
+feature,iv,bins,kind,direction_prior,status
+fico,0.0914,10,numeric,-1,kept
+inq_last_6mths,0.0618,5,numeric,1,kept
+annual_inc,0.06,11,numeric,-1,kept
+loan_to_income,0.0512,11,numeric,1,kept
+purpose,0.0494,12,categorical,0,kept
+dti,0.0411,10,numeric,1,kept
+credit_history_months,0.0315,11,numeric,-1,kept
+term_months,0.03,3,numeric,1,kept
+home_ownership,0.0297,4,categorical,0,kept
+verification_status,0.0175,3,categorical,0,dropped: IV below 0.02
+revol_util,0.0148,10,numeric,1,dropped: IV below 0.02
+addr_state,0.0146,37,categorical,0,dropped: IV below 0.02
+emp_length_yrs,0.0135,6,numeric,-1,dropped: IV below 0.02
+total_acc,0.0078,8,numeric,-1,dropped: IV below 0.02
+revol_bal,0.0073,8,numeric,0,dropped: IV below 0.02
+pub_rec_bankruptcies,0.0022,2,numeric,1,dropped: IV below 0.02
+loan_amnt,0.002,6,numeric,0,dropped: IV below 0.02
+open_acc,0.0015,4,numeric,0,dropped: IV below 0.02
+delinq_2yrs,0.0007,3,numeric,1,dropped: IV below 0.02
+pub_rec,0.0,3,numeric,1,dropped: IV below 0.02
+application_type,0.0,1,categorical,0,dropped: IV below 0.02

@@ -1,0 +1,10 @@
+data/raw/
+data/clean/
+*.duckdb
+*.duckdb.wal
+tmp_duckdb/
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+.DS_Store
+.pytest_cache/

@@ -1,0 +1,11 @@
+feature,coef,se,p_value
+const,-3.0361,0.0073,0.0
+fico,0.8545,0.0252,0.0
+inq_last_6mths,1.012,0.0278,0.0
+annual_inc,0.534,0.0351,0.0
+loan_to_income,0.6635,0.0363,0.0
+purpose,1.0367,0.0313,0.0
+dti,0.6635,0.036,0.0
+credit_history_months,0.6007,0.0422,0.0
+term_months,0.9088,0.0445,0.0
+home_ownership,0.5942,0.0439,0.0

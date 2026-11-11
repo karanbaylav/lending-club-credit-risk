@@ -1,0 +1,4 @@
+sample,loans,bad_rate,gini_scorecard,gini_gbm,gini_lc_subgrade,gini_scorecard_plus_subgrade,ks_scorecard,ks_gbm,mean_pd_scorecard,mean_pd_gbm
+train,466345,0.046,0.3278,0.4206,0.3388,0.3832,0.2366,0.3062,0.046,0.046
+validation,421095,0.0542,0.3293,0.3672,0.4166,0.4221,0.2364,0.267,0.0455,0.0469
+test,759338,0.0597,0.298,0.334,0.4004,0.4001,0.2132,0.2395,0.0424,0.0441

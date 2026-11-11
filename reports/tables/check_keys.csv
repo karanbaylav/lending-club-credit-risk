@@ -1,0 +1,6 @@
+test,failures
+duplicate loan ids,0
+missing loan id,0
+missing or unparsed issue month,0
+missing grade,0
+term not 36 or 60 months,0

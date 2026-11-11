@@ -1,0 +1,10 @@
+loan_status,status_group,loans
+Fully Paid,paid,1076751
+Current,open,878317
+Charged Off,default,268559
+Late (31-120 days),open,21467
+In Grace Period,open,8436
+Late (16-30 days),open,4349
+Does not meet the credit policy. Status:Fully Paid,paid,1988
+Does not meet the credit policy. Status:Charged Off,default,761
+Default,default,40

@@ -1,0 +1,4 @@
+setting,trees,gini_train,gini_validation,num_leaves,min_child_samples,reg_lambda,colsample_bytree,chosen_on_validation,gini_test_chosen_only
+default-ish,428,0.4479,0.3647,31,500,0.0,0.8,False,
+regularised,724,0.4206,0.3672,15,2000,10.0,0.6,True,0.334
+strongly regularised,1357,0.3999,0.3658,7,5000,50.0,0.5,False,

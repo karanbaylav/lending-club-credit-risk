@@ -1,0 +1,12 @@
+issue,loans,treatment
+annual income <= 0,1667,set to missing
+"annual income > 5,000,000",93,kept (WoE bins and trees are insensitive to extremes)
+debt-to-income < 0,2,set to missing
+debt-to-income > 100,2561,set to missing (sentinel or data error)
+revolving utilisation > 150%,28,capped at 150
+FICO outside 300-850,0,set to missing
+funded amount > requested amount,0,kept
+last payment before issue,0,dates out of order; exit age floored at 1
+first credit line after issue,0,history set to missing
+principal or interest received but no last-payment date,1,exit age set to 1
+interest rate outside 5%-31%,0,kept

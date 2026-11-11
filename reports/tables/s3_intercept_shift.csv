@@ -1,0 +1,6 @@
+item,value
+intercept shift fitted on 2015 (log-odds),0.18782
+test observed 12m default rate,0.05974
+"test mean PD, scorecard as trained",0.04244
+"test mean PD, scorecard after 2015 shift",0.05062
+share of the test gap closed by the shift,0.47277
